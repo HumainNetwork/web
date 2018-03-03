@@ -158,13 +158,14 @@ img::-moz-selection {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: transparent;
+    /*background-color: transparent;*/
+    background-color: #212529;
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -189,7 +190,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/header-bg-21.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
