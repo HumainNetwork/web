@@ -190,10 +190,11 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg-21.jpg");
+  margin-top: 62px;
+  background-image: url("../img/header-bg-17.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
+  background-position: top center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -209,21 +210,29 @@ header.masthead .intro-text .intro-lead-in {
   font-size: 22px;
   font-style: italic;
   line-height: 22px;
-  margin-bottom: 25px;
+  margin-bottom: 100px;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 header.masthead .intro-text .intro-heading {
-  font-size: 50px;
+  font-size: 2.3rem;
   font-weight: 700;
   line-height: 50px;
   margin-bottom: 25px;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-shadow: 0px 1px 5px #000000;
 }
 
 @media (min-width: 768px) {
+  header.masthead {
+    -webkit-background-size: initial;
+    -moz-background-size: initial;
+    -o-background-size: initial;
+    background-size: initial;
+    margin-top: 62px 
+  }
   header.masthead .intro-text {
-    padding-top: 300px;
+    padding-top: 400px;
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
@@ -299,7 +308,7 @@ header.masthead .intro-text .intro-heading {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(166, 190, 147, 0.62)
 }
 
 #how-it-works .portfolio-item .portfolio-link .portfolio-hover:hover {
