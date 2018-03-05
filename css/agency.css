@@ -1,3 +1,4 @@
+/* Color Scheme: http://www.colourlovers.com/palette/2416085/[1LP]_Purpul */
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -153,7 +154,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #71548E;
+  color: #b184df;
 }
 
 @media (min-width: 992px) {
