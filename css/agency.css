@@ -49,11 +49,6 @@ section h3.section-subheading {
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-@media (min-width: 768px) {
-  section {
-    padding: 150px 0;
-  }
-}
 
 .btn {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -141,7 +136,7 @@ img::-moz-selection {
 */
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #71548E;
+  color: #6E3572;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -151,6 +146,19 @@ img::-moz-selection {
   letter-spacing: 1px;
   color: white;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+#mainNav .navbar-brand {
+  color: white;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  color: #71548E;
+}
+
+#mainNav.navbar-shrink .navbar-brand, #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+  color: white;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -166,7 +174,8 @@ img::-moz-selection {
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
     /*background-color: transparent;*/
-    background-color: rgba(33, 37, 41, 0.63);
+    /*background-color: rgba(33, 37, 41, 0.63);*/
+    background-color: #e9eaeba1;
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -191,15 +200,18 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg-1680x1063.jpg");
+  background-image: url("../img/header-bg-1680x1063.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
+  background-color: #e9eaeb;
   background-position: 53% 50px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-bottom: 130px;
+  padding-bottom: 100px;
+  margin-top: -10px;
+  border-bottom: 1px solid #6e35724d;
 }
 
 header.masthead .intro-text {
@@ -234,7 +246,7 @@ header.masthead .intro-text .intro-heading {
     background-position: -55px 50px;
   }
   header.masthead .intro-text {
-    padding-top: 400px;
+    padding-top: 250px;
     padding-bottom: 26px;
   }
   header.masthead .intro-text .intro-lead-in {
@@ -247,7 +259,7 @@ header.masthead .intro-text .intro-heading {
     font-size: 75px;
     font-weight: 700;
     line-height: 75px;
-    margin-bottom: 50px;
+    /*margin-bottom: 50px;*/
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 }
@@ -260,11 +272,11 @@ header.masthead .intro-text .intro-heading {
 #how-it-works .video-container {
   position: relative;
   padding-bottom: 56.25%; /*16:9*/
-  padding-top: 30px; 
-  height: 0; 
+  padding-top: 30px;
+  height: 0;
   overflow: hidden;
 }
- 
+
 #how-it-works .video-container iframe,
 #how-it-works .video-container object,
 #how-it-works .video-container embed {
@@ -637,6 +649,7 @@ header.masthead .intro-text .intro-heading {
 .team-member {
   margin-bottom: 50px;
   text-align: center;
+  padding: 0 15px;
 }
 
 .team-member img {
@@ -770,4 +783,8 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #bbb;
+}
+
+p.text-muted strong {
+  color: #333;
 }
