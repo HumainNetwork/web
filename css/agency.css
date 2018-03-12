@@ -173,9 +173,9 @@ img::-moz-selection {
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    /*background-color: transparent;*/
+    background-color: transparent;
     /*background-color: rgba(33, 37, 41, 0.63);*/
-    background-color: #e9eaeba1;
+    /*background-color: #0000001a;*/
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -209,7 +209,6 @@ header.masthead {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-bottom: 100px;
   margin-top: -10px;
   border-bottom: 1px solid #6e35724d;
 }
@@ -244,6 +243,7 @@ header.masthead .intro-text .intro-heading {
     -o-background-size: initial;
     background-size: initial;
     background-position: -55px 50px;
+    padding-bottom: 100px;
   }
   header.masthead .intro-text {
     padding-top: 250px;
